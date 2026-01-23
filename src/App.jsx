@@ -1,9 +1,11 @@
-import './styles/app.scss'
+import ToDo from "@/components/ToDo.jsx";
 
-export default function App() {
-	return (
-		<div className="app">
-			<h1>My App</h1>
-		</div>
-	)
+const App = () => {
+    return (
+            <ToDo/>
+    )
 }
+
+export default App
+
+
